@@ -15,6 +15,16 @@
         android:layout_height="0dp">
 
         <TextView
+            android:id="@+id/answer"
+            android:layout_width="286dp"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_blackground"
+            android:text="Ответ"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+        <TextView
             android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
